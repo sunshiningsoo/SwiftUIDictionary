@@ -1,10 +1,6 @@
-
-![Logo](https://dummyimage.com/1000x300/000/fff.png)
-
-
 # :iphone: Project Title
 
-A brief description of what this project does and who it's for
+This is just for my studying SwiftUI
 
 
 ## :pushpin: Features
@@ -15,7 +11,7 @@ A brief description of what this project does and who it's for
 - Cross platform
 
 
-## :people_hugging: sunshiningsoo
+## :people_hugging: Author
 
 - [@sunshiningsoo](https://www.github.com/sunshiningsoo)
 
@@ -24,19 +20,9 @@ A brief description of what this project does and who it's for
 
 Working 1day 1 commit now to practicing SwiftUI UI
 
-
-## :fireworks: Screenshots
-
-![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
-![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
-![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
-![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
-![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
-![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
-
-
 ## :sparkles: Skills & Tech Stack
 swiftUI
+
 
 ## :books: Documentation
 
