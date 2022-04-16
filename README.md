@@ -1,135 +1,49 @@
-# SwiftUIDictionary
 
-# Created by https://www.toptal.com/developers/gitignore/api/swift,xcode,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=swift,xcode,macos
-
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
+![Logo](https://dummyimage.com/1000x300/000/fff.png)
 
 
-# Thumbnails
-._*
+# :iphone: Project Title
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+A brief description of what this project does and who it's for
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
 
-### macOS Patch ###
-# iCloud generated files
-*.icloud
+## :pushpin: Features
 
-### Swift ###
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
 
-## User settings
-xcuserdata/
 
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-*.xcscmblueprint
-*.xccheckout
+## :people_hugging: sunshiningsoo
 
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
-build/
-DerivedData/
-*.moved-aside
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
+- [@sunshiningsoo](https://www.github.com/sunshiningsoo)
 
-## Obj-C/Swift specific
-*.hmap
 
-## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+## :framed_picture: Demo
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+Working 1day 1 commit now to practicing SwiftUI UI
 
-# Swift Package Manager
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
 
-.build/
+## :fireworks: Screenshots
 
-# CocoaPods
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-# Pods/
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
+![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
+![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
+![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
+![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
+![App Screenshot](https://dummyimage.com/250x500/000/fff.png)
 
-# Carthage
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
 
-Carthage/Build/
+## :sparkles: Skills & Tech Stack
+swiftUI
 
-# Accio dependency management
-Dependencies/
-.accio/
+## :books: Documentation
 
-# fastlane
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+[Documentation](https://developer.apple.com/documentation/swiftui/)
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
 
-# Code Injection
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
+## :lock_with_ink_pen: License
 
-iOSInjectionProject/
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Xcode ###
-
-## Xcode 8 and earlier
-
-### Xcode Patch ###
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-/*.gcno
-**/xcshareddata/WorkspaceSettings.xcsettings
-
-# End of https://www.toptal.com/developers/gitignore/api/swift,xcode,macos
