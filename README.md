@@ -3,14 +3,6 @@
 This is just for my studying SwiftUI
 
 
-## :pushpin: Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
 ## :people_hugging: Author
 
 - [@sunshiningsoo](https://www.github.com/sunshiningsoo)
