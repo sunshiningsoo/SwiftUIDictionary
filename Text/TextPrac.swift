@@ -23,6 +23,8 @@ struct TextPrac: View {
             Text("this is text")
                 .font(.system(size:40, weight: .thin))
                 .foregroundColor(Color.blue)
+                .italic()
+                .underline()
         }
     }
 }
