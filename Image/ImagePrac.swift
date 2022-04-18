@@ -13,7 +13,7 @@ struct ImagePrac: View {
             .resizable()
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
-            .shadow(color: .black, radius: 10)
+            .shadow(color: .blue, radius: 10)
             .overlay(Circle().stroke(Color.blue, lineWidth: 5))
     }
 }
