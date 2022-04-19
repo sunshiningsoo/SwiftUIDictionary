@@ -9,10 +9,20 @@ import SwiftUI
 
 struct ButtonPrac: View {
     var body: some View {
-        VStack{
-            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-                
+        VStack(spacing:50){
+            Button("This is Button") {
+                print("Button pushed")
             }
+            .background(.red)
+            .foregroundColor(.white)
+            .cornerRadius(30)
+            
+            Button(action: {
+                print("Button2 pushed")
+            }, label: {
+                Text("This is button2")
+                
+            })
         }
     }
 }
