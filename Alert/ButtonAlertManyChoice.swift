@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ButtonAlertManyChoice: View {
     @State var isPresent:Bool = false
+    
     var body: some View {
         Button("Alert!"){
             isPresent.toggle()
