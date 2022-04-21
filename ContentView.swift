@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("My SwiftUI Practice")
+        VStack {
+            Text("My SwiftUI Practice")
+        }
     }
 }
 

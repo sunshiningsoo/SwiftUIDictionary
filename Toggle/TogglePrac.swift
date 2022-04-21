@@ -17,6 +17,7 @@ struct TogglePrac: View {
             }
         }
         .padding()
+        .statusBar(hidden: toggleIs) // This can hide status bar include wi-fi or battery status
     }
 }
 
