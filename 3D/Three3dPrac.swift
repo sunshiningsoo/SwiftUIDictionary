@@ -24,8 +24,9 @@ struct Three3dPrac: View {
                 }
             }
             .padding(20)
-            .background(Color.red)
+            .background(Color.blue)
             .foregroundColor(Color.white)
+            .cornerRadius(20)
             .rotation3DEffect(.degrees(degrees), axis: (x: rotateX ? 1 : 0, y: rotateY ? 1 : 0, z: rotateZ ? 1 : 0))
         }
         .padding()
