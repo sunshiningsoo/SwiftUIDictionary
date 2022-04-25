@@ -14,7 +14,6 @@ struct Three3dPrac: View {
     @State private var rotateZ = true
     
     var body: some View {
-        
         VStack(spacing: 30) {
             Toggle("Rotate X-axis", isOn: $rotateX)
             Toggle("Rotate Y-axis", isOn: $rotateY)
@@ -28,8 +27,6 @@ struct Three3dPrac: View {
             .background(Color.red)
             .foregroundColor(Color.white)
             .rotation3DEffect(.degrees(degrees), axis: (x: rotateX ? 1 : 0, y: rotateY ? 1 : 0, z: rotateZ ? 1 : 0))
-            
-            Spacer()
         }
         .padding()
     }
