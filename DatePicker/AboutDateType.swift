@@ -14,6 +14,7 @@ struct AboutDateType: View {
     var body: some View {
         ScrollView {
             Text("\(currentDate)")
+            // Date타입으로 값이 출력된다.
             
             Button("날짜 보내기"){
                 changeString = dateFormatterChange(changeOne: currentDate)
@@ -24,7 +25,7 @@ struct AboutDateType: View {
 }
 
 func dateFormatterChange(changeOne : Date) -> String{
-    var dateFormatter:DateFormatter = DateFormatter()
+    let dateFormatter:DateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yy년도 MM월 dd일 입니다"
     return dateFormatter.string(from: changeOne)
 }
