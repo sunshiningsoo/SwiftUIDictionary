@@ -1,4 +1,4 @@
-# :iphone: Project Title
+# :iphone: SwiftUI Component Study!
 
 This is just for my studying SwiftUI
 
