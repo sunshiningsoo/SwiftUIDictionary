@@ -12,42 +12,50 @@ struct PickerPrac: View {
     var colorList:[String] = ["Red", "Blue"]
     
     var body: some View {
-        VStack(spacing:30) {
-            Picker("pick one thing", selection: $isNow){
-                ForEach(colorList, id:\.self){
-                    Text($0)
+        ScrollView {
+            VStack(spacing:30) {
+                Picker("pick one thing", selection: $isNow){
+                    ForEach(colorList, id:\.self){
+                        Text($0)
+                    }
                 }
+                .pickerStyle(.segmented)
+                Divider()
+                
+                Picker("pick one thing", selection: $isNow){
+                    ForEach(colorList, id:\.self){
+                        Text($0)
+                    }
+                }
+                Divider()
+                
+                Picker("pick one thing", selection: $isNow){
+                    ForEach(colorList, id:\.self){
+                        Text($0)
+                    }
+                }.pickerStyle(.inline)
+                Divider()
+                
+                Picker("pick one thing", selection: $isNow){
+                    ForEach(colorList, id:\.self){
+                        Text($0)
+                    }
+                }.pickerStyle(.menu)
+                Divider()
+                
+                Picker("pick one thing", selection: $isNow){
+                    ForEach(colorList, id:\.self){
+                        Text($0)
+                    }
+                }.pickerStyle(.wheel)
+                
+                
+                Picker("pick one thing", selection: $isNow){
+                    ForEach(colorList, id:\.self){
+                        Text($0)
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
             }
-            .pickerStyle(.segmented)
-            Divider()
-            
-            Picker("pick one thing", selection: $isNow){
-                ForEach(colorList, id:\.self){
-                    Text($0)
-                }
-            }
-            Divider()
-            
-            Picker("pick one thing", selection: $isNow){
-                ForEach(colorList, id:\.self){
-                    Text($0)
-                }
-            }.pickerStyle(.inline)
-            Divider()
-            
-            Picker("pick one thing", selection: $isNow){
-                ForEach(colorList, id:\.self){
-                    Text($0)
-                }
-            }.pickerStyle(.menu)
-            Divider()
-            
-            Picker("pick one thing", selection: $isNow){
-                ForEach(colorList, id:\.self){
-                    Text($0)
-                }
-            }.pickerStyle(.wheel)
-        
         }
         
     }
