@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ModalPrac: View {
+struct ModalCommonPrac: View {
     @State var showModal:Bool = false
     // Modal을 열어줄지 말지를 결정하는 변수 false이면 모달이 없고, true라면 모달이 올라옴
     
@@ -19,9 +19,11 @@ struct ModalPrac: View {
             }, label: {
                 Text("Modal up if you click!")
                     .sheet(isPresented: $showModal){
-                        ModalPage() // showModal의 값이 true가 되어 ModalPage가 올라온다
+                        ModalPage()
+                        // showModal의 값이 true가 되어 ModalPage가 올라온다
                     }
             })
+            
         }
     }
 }
@@ -45,11 +47,13 @@ struct ModalPage:View{
             .foregroundColor(.white)
         }
         
+        
+        
     }
 }
 
-struct ModalPrac_Previews: PreviewProvider {
+struct ModalCommonPrac_Previews: PreviewProvider {
     static var previews: some View {
-        ModalPrac()
+        ModalCommonPrac()
     }
 }
