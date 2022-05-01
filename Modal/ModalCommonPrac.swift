@@ -21,6 +21,9 @@ struct ModalCommonPrac: View {
                     .sheet(isPresented: $showModal){
                         ModalPage()
                         // showModal의 값이 true가 되어 ModalPage가 올라온다
+                        
+                        //다만 ForEach 안에 있는 구문의 경우에 ForEach 바깥에서 sheet을 만들어주는 것을
+                        //원칙으로 한다. 모든 객체에서 Modal이 만들어 질 필요가 없다.
                     }
             })
             
