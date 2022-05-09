@@ -104,7 +104,6 @@ struct Page4: View{
             })
         }
     }
-    
 }
 
 struct PopToRootPrac_Previews: PreviewProvider {
