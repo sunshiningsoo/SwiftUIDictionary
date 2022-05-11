@@ -15,7 +15,7 @@ Working 1day 1 commit now to practicing SwiftUI UI
 You can use when you want!
 
 ## :sparkles: Skills & Tech Stack
-swiftUI
+SwiftUI
 
 
 ## :books: Documentation
