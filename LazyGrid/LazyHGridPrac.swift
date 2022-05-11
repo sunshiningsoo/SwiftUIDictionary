@@ -15,6 +15,8 @@ struct LazyHGridPrac: View {
     
     var body: some View {
         ScrollView(.horizontal) {
+            
+            // Lazy라는 명칭이 붙은데에는 item이 필요해서 나오기 이전에는 item이 나와있는 상태가 아니다.
             LazyHGrid(rows: rows){
                 ForEach(data, id:\.self){ smallData in
                     VStack {
