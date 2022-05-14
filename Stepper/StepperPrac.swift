@@ -22,11 +22,11 @@ struct StepperPrac: View {
                 if value < Properties.count - 1{
                     value += 1
                 }else{
-                    value = 0
+                    value = 4
                 }
             }, onDecrement: {
                 if value < 1 {
-                    value = Properties.count - 1
+                    value = 0
                 }else{
                     value -= 1
                 }
