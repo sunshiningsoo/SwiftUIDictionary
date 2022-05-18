@@ -38,26 +38,40 @@ class Users:ObservableObject{
         guard let url = URL(string: api) else { return }
         
         URLSession.shared.dataTask(with: url){ (data, response, err) in
-            self.users = try! JSONDecoder().decode([User].self, from: data!)
+            
+            DispatchQueue.main.async {
+                do{
+                    self.users = try JSONDecoder().decode([User].self, from: data!)}
+                catch{
+                    print(error)
+                }
+                
+                ///            Publishing changes from background threads is not allowed; make sure to publish values from the main thread (via operators like receive(on:)) on model updates.
+            ///            이 문제는 do catch 로 error를 잡지 못하고, 코더블을 하는 메인 쓰레드의 동작완료까지의 기간을 보장해주어야 하기 때문에
+            ///            do catch 를 사용함으로서  try 의 강제 추출형식은 뺄 수 있다
+            ///            DispatchQueue.main.async 로 위의 에러 메시지를 없앨 수 있다.
+            ///            다만 정확히 맞는 해설인지는 미지수..
+            }
         }
         .resume()
     }
-        
 }
 
 struct URLSessionPrac: View {
     @ObservedObject var usersObject = Users()
     
     var body: some View {
-        VStack {
-            Button(action: {
-                usersObject.dataFetch()
-            }, label: {
-                Text("Click to fetch Data")
-            })
-            
-            ForEach(usersObject.users){user in
-                Text(user.title)
+        ScrollView {
+            VStack {
+                Button(action: {
+                    usersObject.dataFetch()
+                }, label: {
+                    Text("Click to fetch Data")
+                })
+                
+                ForEach(usersObject.users){user in
+                    Text(user.title)
+                }
             }
         }
     }
