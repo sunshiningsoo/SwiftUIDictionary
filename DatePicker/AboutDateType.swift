@@ -25,6 +25,7 @@ struct AboutDateType: View {
 }
 
 func dateFormatterChange(changeOne : Date) -> String{
+    // date를 나타내어 주는 방법으로 포맷을 시킨 후에 string을 리턴해주게 된다.
     let dateFormatter:DateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yy년도 MM월 dd일 입니다"
     return dateFormatter.string(from: changeOne)
