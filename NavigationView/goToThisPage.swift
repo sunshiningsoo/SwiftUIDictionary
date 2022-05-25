@@ -10,11 +10,15 @@ import SwiftUI
 struct goToThisPage: View {
     var body: some View {
         Text("This is goToThisPage")
+            .navigationTitle("Here is goToThisPage")
     }
 }
 
 struct goToThisPage_Previews: PreviewProvider {
     static var previews: some View {
-        goToThisPage()
+        NavigationView{
+            goToThisPage()
+        }
+        
     }
 }

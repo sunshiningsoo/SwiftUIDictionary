@@ -10,6 +10,7 @@ import SwiftUI
 struct ButtonAlertOneChoice: View {
     @State var isPresented:Bool = false
     @State var isPresented2:Bool = false
+    @State var isPresented3:Bool = false
     
     var body: some View {
         VStack {
@@ -30,7 +31,20 @@ struct ButtonAlertOneChoice: View {
             .alert(isPresented: $isPresented2){
                 Alert(title: Text("This is Title2"), message: Text("This is Message2"), dismissButton: .none)
             }
+            
+            // function을 이용한 Alert
+            Button(action: {
+                isPresented3.toggle()
+            }, label: {
+                Text("This is using function!")
+            })
+            .alert(isPresented: $isPresented3, content: alertReturn)
         }
+    }
+    
+    // Alert를 return하는 함수, "Alert"를 uppercased()해서 대문자로 받은 점도 인상적!
+    func alertReturn() -> Alert{
+        return Alert(title: Text("Alert".uppercased()))
     }
 }
 
