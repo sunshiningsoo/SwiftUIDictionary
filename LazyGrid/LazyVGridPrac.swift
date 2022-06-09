@@ -27,13 +27,11 @@ struct LazyVGridPrac: View {
                         Capsule()
                         Text(smallData)
                     }
-                    
                 }
             }
         }
     }
 }
-
 
 struct LazyVGridPrac_Previews: PreviewProvider {
     static var previews: some View {
