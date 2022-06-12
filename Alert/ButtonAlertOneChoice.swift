@@ -11,6 +11,7 @@ struct ButtonAlertOneChoice: View {
     @State var isPresented:Bool = false
     @State var isPresented2:Bool = false
     @State var isPresented3:Bool = false
+    @State var isPresented4:Bool = false
     
     var body: some View {
         VStack {
@@ -18,7 +19,10 @@ struct ButtonAlertOneChoice: View {
                 isPresented.toggle()
             }
             .alert(isPresented:$isPresented){
-                Alert(title: Text("this is title"), message: Text("this is message"), dismissButton: .default(Text("dismiss")))
+                Alert(title: Text("this is title"),
+                      message: Text("this is message"),
+                      dismissButton: .default(Text("dismiss"))
+                )
             }
             
             
@@ -29,7 +33,9 @@ struct ButtonAlertOneChoice: View {
                 Text("Alert just OK")
             })
             .alert(isPresented: $isPresented2){
-                Alert(title: Text("This is Title2"), message: Text("This is Message2"), dismissButton: .none)
+                Alert(title: Text("This is Title2"),
+                      message: Text("This is Message2"),
+                      dismissButton: .none)
             }
             
             // function을 이용한 Alert
@@ -38,7 +44,23 @@ struct ButtonAlertOneChoice: View {
             }, label: {
                 Text("This is using function!")
             })
-            .alert(isPresented: $isPresented3, content: alertReturn)
+            .alert(isPresented: $isPresented3,
+                   content: alertReturn)
+            
+            // primaryButton, secondaryButton
+            Button(action: {
+                isPresented4.toggle()
+            }, label: {
+                Text("This is primary, secondary")
+            })
+            .alert(isPresented: $isPresented4){
+                Alert(title: Text("Title!"),
+                      message: Text("This is message"),
+                      primaryButton: .destructive(Text("destructive")),
+                      secondaryButton: .cancel(Text("cancel")))
+                // Alert.Button 타입임 -> Alert.Button.destructive()이지만,
+                // 예상 가능한 타입이기 때문에, 줄임이 가능하다.
+            }
         }
     }
     
