@@ -24,6 +24,7 @@
 		DF6EA4A8281105160013D56F /* TogglePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA4A7281105160013D56F /* TogglePrac.swift */; };
 		DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A9229281270780037B390 /* NavigationViewPrac.swift */; };
 		DF7A922C281270850037B390 /* goToThisPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A922B281270850037B390 /* goToThisPage.swift */; };
+		DF7CF55E28621C6200A0178F /* InitPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF55D28621C6200A0178F /* InitPrac.swift */; };
 		DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */; };
 		DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346328194B69007CF176 /* ColorPickerPrac.swift */; };
 		DFBA346728199153007CF176 /* ModalCommonPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346628199153007CF176 /* ModalCommonPrac.swift */; };
@@ -65,6 +66,7 @@
 		DF6EA4A7281105160013D56F /* TogglePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePrac.swift; sourceTree = "<group>"; };
 		DF7A9229281270780037B390 /* NavigationViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPrac.swift; sourceTree = "<group>"; };
 		DF7A922B281270850037B390 /* goToThisPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToThisPage.swift; sourceTree = "<group>"; };
+		DF7CF55D28621C6200A0178F /* InitPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPrac.swift; sourceTree = "<group>"; };
 		DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionPrac.swift; sourceTree = "<group>"; };
 		DFBA346328194B69007CF176 /* ColorPickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerPrac.swift; sourceTree = "<group>"; };
 		DFBA346628199153007CF176 /* ModalCommonPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalCommonPrac.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DF46D131283BE4A8008978E0 /* TaskPrac.swift */,
+				DF7CF55D28621C6200A0178F /* InitPrac.swift */,
 			);
 			path = AppCycle;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */,
 				DFE79872281D27E100B4C4F5 /* ModalForFullScreen.swift in Sources */,
 				DFC6448B2817E20F00188AC0 /* AboutDateType.swift in Sources */,
+				DF7CF55E28621C6200A0178F /* InitPrac.swift in Sources */,
 				DF6EA4A52810FA810013D56F /* SpacerPrac.swift in Sources */,
 				DFEE9204280A52DA0030D7C5 /* ImagePrac.swift in Sources */,
 				DFEB841228295FD800265F2A /* ObservedObjectPrac.swift in Sources */,
