@@ -37,7 +37,12 @@ class Users:ObservableObject{
     func dataFetch(){
         guard let url = URL(string: api) else { return }
         
+        // guard let data = try? Data(contentsOf: url) else { return }
+        // 위의 Data로 가져오게 되면, 동기적으로 진행하게 되어, 데이터를 가져올 동안 다른 일은 하지 않는다.
+        // -> 효율 및 UX의 문제로 판단됨!
+        
         URLSession.shared.dataTask(with: url){ (data, response, err) in
+            // task는 비동기로 진행된다. URL을 통한 데이터를 가져옴과 동시에 다른 일도 진행한다. -> good!
             
             DispatchQueue.main.async {
                 do{
