@@ -21,7 +21,6 @@ struct ImgReal: Codable {
 }
 
 class Instance: ObservableObject {
-    @Published var content: String = "this is content"
     @Published var contentImg: Img = Img()
     @Published var imageGetFrom: UIImage?
 }
@@ -88,6 +87,12 @@ struct URLSessionPexelPrac: View {
         }
         .resume()
         // 모든 task는 일시정지 상태로 시작되기 때문에, resume()으로 task를 실행해야 합니다.
+        /*
+         * NSURLSessionTask objects are always created in a suspended state and
+         * must be sent the -resume message before they will execute.
+         */
+        // datatask가 return 하는 타입이 URLSessionTask이다.
+        // 위의 definition으로 URLSessionTask가 일시정지 된 상태로 생겨나기 때문에, resume()을 해주어야 하는 이유가 된다!
     }
 }
 
