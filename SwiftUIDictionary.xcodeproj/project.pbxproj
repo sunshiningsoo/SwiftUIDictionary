@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
 		DF46D132283BE4A8008978E0 /* TaskPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46D131283BE4A8008978E0 /* TaskPrac.swift */; };
 		DF55F9602823C04A0082D982 /* PopToRootPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F95F2823C04A0082D982 /* PopToRootPrac.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
 		DF46D131283BE4A8008978E0 /* TaskPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPrac.swift; sourceTree = "<group>"; };
 		DF55F95F2823C04A0082D982 /* PopToRootPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopToRootPrac.swift; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				DFEE9203280A52DA0030D7C5 /* ImagePrac.swift */,
+				DF023581286F312A009E9C76 /* AsyncImagePrac.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				DFBA3473281BB2B4007CF176 /* PickerPrac.swift in Sources */,
 				DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */,
 				DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */,
+				DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */,
 				DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */,
 				DF55F9692828C4330082D982 /* SliderPrac.swift in Sources */,
 				DF5EF864281592CC00CAC5E7 /* Three3dPrac.swift in Sources */,
