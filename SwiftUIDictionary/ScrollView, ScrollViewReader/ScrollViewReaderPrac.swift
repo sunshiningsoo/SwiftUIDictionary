@@ -12,20 +12,20 @@ struct ScrollViewReaderPrac: View {
     @Namespace var bottomId
     
     var body: some View {
-        ScrollViewReader{scroll in
-            ScrollView{
-                Button("Move to Bottom"){
-                    withAnimation{
+        ScrollViewReader { scroll in
+            ScrollView {
+                Button("Move to Bottom") {
+                    withAnimation {
                         scroll.scrollTo(bottomId)
                     }
                 }.id(topId)
                 
-                ForEach(0..<100, id:\.self){
+                ForEach(0..<100, id:\.self) {
                     Text("\($0)")
                 }
                 
-                Button("Move to Top"){
-                    withAnimation{
+                Button("Move to Top") {
+                    withAnimation {
                         scroll.scrollTo(topId)
                     }
                 }.id(bottomId)

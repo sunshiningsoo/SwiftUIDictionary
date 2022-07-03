@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct StepperPrac: View {
-    @State var isStepping:Int = 3
+    @State var isStepping: Int = 3
     @State var value = 0
-    var Properties:[String] = ["111", "222", "333", "444", "555"]
+    var Properties: [String] = ["111", "222", "333", "444", "555"]
     
     var body: some View {
         VStack(spacing: 50) {
-            Stepper(value:$isStepping, in:0...20){
+            Stepper(value: $isStepping, in: 0...20){
                 Text("isStepping : \(isStepping)")
             }
             
-            Stepper(label: {Text("This is Preperty Stepper : \(Properties[value])")}, onIncrement: {
+            Stepper(label: { Text("This is Preperty Stepper : \(Properties[value])")}, onIncrement: {
                 if value < Properties.count - 1{
                     value += 1
                 }else{

@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct State_BindingPrac: View {
-    @State private var thisOn:Bool = false
+    @State private var thisOn: Bool = false
     
     var body: some View {
         ScrollView{
-            Toggle(isOn:$thisOn){
+            Toggle(isOn: $thisOn){
                 Text("thisOn is")
             }
             BindingHere(thisOn: $thisOn)

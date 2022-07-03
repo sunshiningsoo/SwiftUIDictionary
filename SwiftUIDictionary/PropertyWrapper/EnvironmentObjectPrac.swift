@@ -8,14 +8,14 @@
 import SwiftUI
 
 class FakeData2:ObservableObject{
-    @Published var num:Int = 0
+    @Published var num: Int = 0
 }
 
 struct EnvironmentObjectPrac: View {
-    @StateObject var fakeData2:FakeData2 = FakeData2()
+    @StateObject var fakeData2: FakeData2 = FakeData2()
     var body: some View {
         NavigationView{
-            NavigationLink(destination: EnvironmentObjectNextPage()){
+            NavigationLink(destination: EnvironmentObjectNextPage()) {
                 Text("Go to Next page!")
             }
         }
@@ -24,14 +24,14 @@ struct EnvironmentObjectPrac: View {
 
 struct EnvironmentObjectNextPage: View{
     var body: some View{
-        NavigationLink(destination : LastPage()){
+        NavigationLink(destination : LastPage()) {
             Text("Click to move last page")
         }
     }
 }
 
 struct LastPage: View{
-    @EnvironmentObject var fakedata2:FakeData2
+    @EnvironmentObject var fakedata2: FakeData2
     
     var body: some View{
         VStack {

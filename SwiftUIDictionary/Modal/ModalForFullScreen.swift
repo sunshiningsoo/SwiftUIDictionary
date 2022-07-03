@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ModalForFullScreen: View {
-    @State var showModal:Bool = false
+    @State var showModal: Bool = false
     
     var body: some View {
         VStack{
@@ -25,10 +25,10 @@ struct ModalForFullScreen: View {
 }
 
 struct ModalFull: View{
-    @Binding var showModal:Bool
+    @Binding var showModal: Bool
     
     var body: some View{
-        VStack(spacing:30){
+        VStack(spacing: 30){
             Text("This is full screen of Modal View")
             Button(action: {
                 showModal.toggle()

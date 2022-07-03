@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StateAndBinding: View {
-    @State var stateVar:Int = 0
+    @State var stateVar: Int = 0
     var body: some View {
         VStack(spacing: 50){
             Button(action: {
@@ -23,7 +23,7 @@ struct StateAndBinding: View {
 }
 
 struct BindingCome: View {
-    @Binding var stateVar:Int
+    @Binding var stateVar: Int
     
     var body : some View{
         Text("Binding here : \(stateVar)")

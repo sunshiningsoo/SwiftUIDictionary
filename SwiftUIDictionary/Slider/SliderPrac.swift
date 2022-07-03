@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct SliderPrac: View {
-    @State var value:Float = 20.0
+    @State var value: Float = 20.0
     
     var body: some View {
-        VStack(spacing:50) {
-            Slider(value: $value, in:0...100)
+        VStack(spacing: 50) {
+            Slider(value: $value, in: 0...100)
             Text("The value is  : \(value)")
         }
     }

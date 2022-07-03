@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BindingHere: View {
-    @Binding var thisOn:Bool
+    @Binding var thisOn: Bool
     
     var body: some View {
         Text(thisOn ? "this is true now" : "this is false now")

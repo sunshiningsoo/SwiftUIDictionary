@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct DatePickerPrac: View {
-    @State var now:String?
+    @State var now: String?
     @State private var date = Date()
-    
     var dateFormatter = DateFormatter()
+    // dateFormatter의 속성을 적용시켜서 그 속성에 맞는 값으로 바꿔주게 만들어 준다.
     
     let dateRange: ClosedRange<Date> = {
         // This can make the range of the date picker
         let calendar = Calendar.current
         let startComponents = DateComponents(year: 2021, month: 11, day: 15)
         let endComponents = DateComponents(year: 2022, month: 5, day: 20, hour: 23, minute: 59, second: 59)
-        return calendar.date(from:startComponents)!
+        return calendar.date(from: startComponents)!
             ...
-            calendar.date(from:endComponents)!
+            calendar.date(from: endComponents)!
     }()
     
     

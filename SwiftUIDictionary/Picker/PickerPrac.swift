@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct PickerPrac: View {
-    @State var isNow:String = "Red"
-    var colorList:[String] = ["Red", "Blue"]
+    @State var isNow: String = "Red"
+    var colorList: [String] = ["Red", "Blue"]
     
     var body: some View {
         ScrollView {
-            VStack(spacing:30) {
+            VStack(spacing: 30) {
                 Picker("pick one thing", selection: $isNow){
                     ForEach(colorList, id:\.self){
                         Text($0)
@@ -23,35 +23,35 @@ struct PickerPrac: View {
                 Divider()
                 
                 Picker("pick one thing", selection: $isNow){
-                    ForEach(colorList, id:\.self){
+                    ForEach(colorList, id: \.self){
                         Text($0)
                     }
                 }
                 Divider()
                 
                 Picker("pick one thing", selection: $isNow){
-                    ForEach(colorList, id:\.self){
+                    ForEach(colorList, id: \.self){
                         Text($0)
                     }
                 }.pickerStyle(.inline)
                 Divider()
                 
                 Picker("pick one thing", selection: $isNow){
-                    ForEach(colorList, id:\.self){
+                    ForEach(colorList, id: \.self){
                         Text($0)
                     }
                 }.pickerStyle(.menu)
                 Divider()
                 
                 Picker("pick one thing", selection: $isNow){
-                    ForEach(colorList, id:\.self){
+                    ForEach(colorList, id: \.self){
                         Text($0)
                     }
                 }.pickerStyle(.wheel)
                 
                 
                 Picker("pick one thing", selection: $isNow){
-                    ForEach(colorList, id:\.self){
+                    ForEach(colorList, id: \.self){
                         Text($0)
                     }
                 }.pickerStyle(SegmentedPickerStyle())

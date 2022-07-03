@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ModalCommonPrac: View {
-    @State var showModal:Bool = false
+    @State var showModal: Bool = false
     // Modal을 열어줄지 말지를 결정하는 변수 false이면 모달이 없고, true라면 모달이 올라옴
     
     var body: some View {

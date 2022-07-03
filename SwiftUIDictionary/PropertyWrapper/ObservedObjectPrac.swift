@@ -8,11 +8,11 @@
 import SwiftUI
 
 class FakeData:ObservableObject{
-    @Published var num:Int = 0
+    @Published var num: Int = 0
 }
 
 struct ObservedObjectPrac: View {
-    @StateObject var fakeData:FakeData = FakeData()
+    @StateObject var fakeData: FakeData = FakeData()
     var body: some View {
         NavigationView{
             NavigationLink(destination: ObservableNextPage(fakeData: fakeData)){
@@ -23,7 +23,7 @@ struct ObservedObjectPrac: View {
 }
 
 struct ObservableNextPage: View{
-    @ObservedObject var fakeData:FakeData
+    @ObservedObject var fakeData: FakeData
     
     var body: some View{
         VStack{
