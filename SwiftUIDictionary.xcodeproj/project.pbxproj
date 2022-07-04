@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
+		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
 		DF46D132283BE4A8008978E0 /* TaskPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46D131283BE4A8008978E0 /* TaskPrac.swift */; };
 		DF55F9602823C04A0082D982 /* PopToRootPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F95F2823C04A0082D982 /* PopToRootPrac.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
+		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
 		DF46D131283BE4A8008978E0 /* TaskPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPrac.swift; sourceTree = "<group>"; };
 		DF55F95F2823C04A0082D982 /* PopToRootPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopToRootPrac.swift; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF0C68FA287310A10015023E /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		DF46D130283BE498008978E0 /* AppCycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +341,7 @@
 			children = (
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
+				DF0C68FA287310A10015023E /* Preview */,
 				DF7CF55F2862F05A00A0178F /* Closure */,
 				DF46D130283BE498008978E0 /* AppCycle */,
 				DF9DB6B42833C2D60091E538 /* DataFetch */,
@@ -473,6 +484,7 @@
 				DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */,
 				DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */,
 				DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */,
+				DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */,
 				DF55F9692828C4330082D982 /* SliderPrac.swift in Sources */,
 				DF5EF864281592CC00CAC5E7 /* Three3dPrac.swift in Sources */,
 				DF5EF85F28154E0E00CAC5E7 /* State&BindingPrac.swift in Sources */,
