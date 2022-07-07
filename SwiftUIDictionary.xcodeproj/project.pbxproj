@@ -32,6 +32,7 @@
 		DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF5642864A31600A0178F /* AUTHKEY.swift */; };
 		DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF5662864A52600A0178F /* AppCyclePrac.swift */; };
 		DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */; };
+		DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */; };
 		DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346328194B69007CF176 /* ColorPickerPrac.swift */; };
 		DFBA346728199153007CF176 /* ModalCommonPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346628199153007CF176 /* ModalCommonPrac.swift */; };
 		DFBA3473281BB2B4007CF176 /* PickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA3472281BB2B4007CF176 /* PickerPrac.swift */; };
@@ -80,6 +81,7 @@
 		DF7CF5642864A31600A0178F /* AUTHKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUTHKEY.swift; sourceTree = "<group>"; };
 		DF7CF5662864A52600A0178F /* AppCyclePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCyclePrac.swift; sourceTree = "<group>"; };
 		DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionPrac.swift; sourceTree = "<group>"; };
+		DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevicePrac.swift; sourceTree = "<group>"; };
 		DFBA346328194B69007CF176 /* ColorPickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerPrac.swift; sourceTree = "<group>"; };
 		DFBA346628199153007CF176 /* ModalCommonPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalCommonPrac.swift; sourceTree = "<group>"; };
 		DFBA3472281BB2B4007CF176 /* PickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPrac.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */,
+				DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */,
 				DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */,
 				DFEB8421282B9FD000265F2A /* LazyHGridPrac.swift in Sources */,
+				DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */,
 				DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */,
 				DFEE91F22809689D0030D7C5 /* SwiftUIDictionaryApp.swift in Sources */,
 				DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */,
