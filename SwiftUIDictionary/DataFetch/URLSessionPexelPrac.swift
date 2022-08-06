@@ -63,13 +63,16 @@ struct URLSessionPexelPrac: View {
     }
     
     func imageDataFetch() {
+        // 1. make URL
         guard let newUrl = URL(string: url) else {
             print("URL Crash")
             return
         }
+        // 2. Request or Session
         var urlRequest = URLRequest(url: newUrl)
         urlRequest.httpMethod = "GET"
         urlRequest.addValue(KEY, forHTTPHeaderField: "Authorization") // key값 추가하기
+        // 3. dataTask
         URLSession.shared.dataTask(with: urlRequest) { (data, response, err) in
             guard let content = data else { return }
             if let err = err {
@@ -77,6 +80,7 @@ struct URLSessionPexelPrac: View {
             }
             debugPrint(content)
             DispatchQueue.main.async {
+                // 4. decode
                 do {
                     self.instance.contentImg = try JSONDecoder().decode(Img.self, from: content)
                     imageGet()
@@ -85,6 +89,7 @@ struct URLSessionPexelPrac: View {
                 }
             }
         }
+        // 5. datatask resume
         .resume()
         // 모든 task는 일시정지 상태로 시작되기 때문에, resume()으로 task를 실행해야 합니다.
         /*
