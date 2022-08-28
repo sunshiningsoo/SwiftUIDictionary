@@ -11,6 +11,7 @@
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
 		DF3F8C2F28BA5CBE00D48913 /* MagnifyingPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8C2E28BA5CBE00D48913 /* MagnifyingPrac.swift */; };
+		DF3F8C4328BBA30A00D48913 /* OverlayAndMaskPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8C4228BBA30A00D48913 /* OverlayAndMaskPrac.swift */; };
 		DF46D132283BE4A8008978E0 /* TaskPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46D131283BE4A8008978E0 /* TaskPrac.swift */; };
 		DF55F9602823C04A0082D982 /* PopToRootPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F95F2823C04A0082D982 /* PopToRootPrac.swift */; };
 		DF55F964282618DC0082D982 /* StepperPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F963282618DC0082D982 /* StepperPrac.swift */; };
@@ -61,6 +62,7 @@
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
 		DF3F8C2E28BA5CBE00D48913 /* MagnifyingPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyingPrac.swift; sourceTree = "<group>"; };
+		DF3F8C4228BBA30A00D48913 /* OverlayAndMaskPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayAndMaskPrac.swift; sourceTree = "<group>"; };
 		DF46D131283BE4A8008978E0 /* TaskPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPrac.swift; sourceTree = "<group>"; };
 		DF55F95F2823C04A0082D982 /* PopToRootPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopToRootPrac.swift; sourceTree = "<group>"; };
 		DF55F963282618DC0082D982 /* StepperPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperPrac.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 				DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		DF3F8C4128BBA2EF00D48913 /* OverLayAndMask */ = {
+			isa = PBXGroup;
+			children = (
+				DF3F8C4228BBA30A00D48913 /* OverlayAndMaskPrac.swift */,
+			);
+			path = OverLayAndMask;
 			sourceTree = "<group>";
 		};
 		DF46D130283BE498008978E0 /* AppCycle */ = {
@@ -347,6 +357,7 @@
 			children = (
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
+				DF3F8C4128BBA2EF00D48913 /* OverLayAndMask */,
 				DF0C68FA287310A10015023E /* Preview */,
 				DF7CF55F2862F05A00A0178F /* Closure */,
 				DF46D130283BE498008978E0 /* AppCycle */,
@@ -508,6 +519,7 @@
 				DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */,
 				DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */,
 				DFEE91F22809689D0030D7C5 /* SwiftUIDictionaryApp.swift in Sources */,
+				DF3F8C4328BBA30A00D48913 /* OverlayAndMaskPrac.swift in Sources */,
 				DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */,
 				DFE79872281D27E100B4C4F5 /* ModalForFullScreen.swift in Sources */,
 				DFC6448B2817E20F00188AC0 /* AboutDateType.swift in Sources */,
