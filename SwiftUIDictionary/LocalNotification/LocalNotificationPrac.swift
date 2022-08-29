@@ -10,7 +10,7 @@ import UserNotifications
 
 // REF: https://www.youtube.com/watch?v=mG9BVAs8AIo
 class NotiCenter {
-    static let instance = NotiCenter()
+    static let instance = NotiCenter() // Singleton 활용한 접근 방식, 객체 하나만 사용하는 것임
     
     func getAuth() {
         let options:  UNAuthorizationOptions = [.badge, .sound, .alert]
@@ -24,7 +24,7 @@ class NotiCenter {
         }
     }
     
-    func alert() {
+    func timeIntervalAlert() {
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3, repeats: false)
         let content = UNMutableNotificationContent()
         content.title = "This is THat"
@@ -53,7 +53,7 @@ struct LocalNotificationPrac: View {
                 // Auth 권한을 받은 이후에 노티를 활용해야 함 무조건!
             }
             Button("Time interval Noti") {
-                NotiCenter.instance.alert()
+                NotiCenter.instance.timeIntervalAlert()
             }
             Button("Noti Clear") {
                 NotiCenter.instance.clear()
