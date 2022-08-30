@@ -24,14 +24,29 @@ class NotiCenter {
         }
     }
     
-    func timeIntervalAlert() {
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3, repeats: false)
-        let content = UNMutableNotificationContent()
+    let content = UNMutableNotificationContent()
+    
+    func contentSetting() {
         content.title = "This is THat"
         content.subtitle = "SUBTITLE"
         content.body = "BODy"
         content.badge = 1 // 이 설정이 안되어있으면, 노티가 가도 Badge의 수가 오르지 않는다.
-        
+    }
+    
+    func timeIntervalAlert() {
+        contentSetting()
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3, repeats: false)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(request)
+    }
+    
+    func calendarIntervalAlert() {
+        contentSetting()
+        var dateComponents = DateComponents()
+        dateComponents.hour = 22
+        dateComponents.minute = 31
+//        dateComponents.weekday = 3 // 1이 일요일부터 시작함
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request)
     }
@@ -54,6 +69,9 @@ struct LocalNotificationPrac: View {
             }
             Button("Time interval Noti") {
                 NotiCenter.instance.timeIntervalAlert()
+            }
+            Button("Calender interval Noti") {
+                NotiCenter.instance.calendarIntervalAlert()
             }
             Button("Noti Clear") {
                 NotiCenter.instance.clear()
