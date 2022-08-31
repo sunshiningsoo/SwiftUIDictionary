@@ -55,9 +55,9 @@ class Users: ObservableObject{
             }
             //MARK: 2. Block the Failed data Load
             guard let data = data else { return } // data가 nil인 것을 막아준다.
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [weak self] in // weak self를 붙여 도중에 사용자가 나가는 것을 고려해준다. deinit을 해주기 가능
                 do{
-                    self.users = try JSONDecoder().decode([User].self, from: data) // data가 위에서 nil인 것을 막아줬으므로 강제 언래핑을 제외할 수 있다.
+                    self?.users = try JSONDecoder().decode([User].self, from: data) // data가 위에서 nil인 것을 막아줬으므로 강제 언래핑을 제외할 수 있다.
                 }
                 catch{
                     print(error)
