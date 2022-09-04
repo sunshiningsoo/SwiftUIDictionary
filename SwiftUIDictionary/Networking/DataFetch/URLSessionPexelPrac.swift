@@ -46,9 +46,9 @@ struct URLSessionPexelPrac: View {
             })
             Text("\(instance.contentImg.photos?[0].src?.original ?? "nothing")")
             if instance.contentImg.photos?.isEmpty != nil {
-                Image(uiImage: instance.imageGetFrom!)
+                Image(uiImage: instance.imageGetFrom ?? UIImage())
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
+                    .aspectRatio(contentMode: .fill)
             }
         }
         .onAppear() // 4 뷰가 생성되고 나서
@@ -58,7 +58,7 @@ struct URLSessionPexelPrac: View {
         guard let url = URL(string: instance.contentImg.photos![0].src!.original) else { return }
         
         if let data = try? Data(contentsOf: url) {
-            instance.imageGetFrom =  UIImage(data: data)
+            instance.imageGetFrom = UIImage(data: data)
         }
     }
     
@@ -72,7 +72,7 @@ struct URLSessionPexelPrac: View {
         var urlRequest = URLRequest(url: newUrl)
         urlRequest.httpMethod = "GET"
         urlRequest.addValue(KEY, forHTTPHeaderField: "Authorization") // key값 추가하기
-        // 3. dataTask
+        // 3. dataTask -> default로 백그라운드 thread에서 프로그램이 실행됨
         URLSession.shared.dataTask(with: urlRequest) { (data, response, err) in
             guard let content = data else { return }
             if let err = err {
@@ -80,6 +80,7 @@ struct URLSessionPexelPrac: View {
             }
             debugPrint(content)
             DispatchQueue.main.async {
+                // background thread에서 실행되던 코드를 UI 업데이트니까 main thread로 옮겨줌
                 // 4. decode
                 do {
                     self.instance.contentImg = try JSONDecoder().decode(Img.self, from: content)

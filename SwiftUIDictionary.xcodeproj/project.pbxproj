@@ -31,10 +31,10 @@
 		DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A9229281270780037B390 /* NavigationViewPrac.swift */; };
 		DF7A922C281270850037B390 /* goToThisPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A922B281270850037B390 /* goToThisPage.swift */; };
 		DF7CF55E28621C6200A0178F /* InitPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF55D28621C6200A0178F /* InitPrac.swift */; };
-		DF7CF5612862F07000A0178F /* ClosurePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF5602862F07000A0178F /* ClosurePrac.swift */; };
 		DF7CF5632864008E00A0178F /* URLSessionPexelPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF5622864008E00A0178F /* URLSessionPexelPrac.swift */; };
 		DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF5642864A31600A0178F /* AUTHKEY.swift */; };
 		DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF5662864A52600A0178F /* AppCyclePrac.swift */; };
+		DF8A5B9428C493130010E863 /* EscapingFromFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A5B9328C493130010E863 /* EscapingFromFetching.swift */; };
 		DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */; };
 		DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */; };
 		DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346328194B69007CF176 /* ColorPickerPrac.swift */; };
@@ -84,10 +84,10 @@
 		DF7A9229281270780037B390 /* NavigationViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPrac.swift; sourceTree = "<group>"; };
 		DF7A922B281270850037B390 /* goToThisPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToThisPage.swift; sourceTree = "<group>"; };
 		DF7CF55D28621C6200A0178F /* InitPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPrac.swift; sourceTree = "<group>"; };
-		DF7CF5602862F07000A0178F /* ClosurePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePrac.swift; sourceTree = "<group>"; };
 		DF7CF5622864008E00A0178F /* URLSessionPexelPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionPexelPrac.swift; sourceTree = "<group>"; };
 		DF7CF5642864A31600A0178F /* AUTHKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUTHKEY.swift; sourceTree = "<group>"; };
 		DF7CF5662864A52600A0178F /* AppCyclePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCyclePrac.swift; sourceTree = "<group>"; };
+		DF8A5B9328C493130010E863 /* EscapingFromFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingFromFetching.swift; sourceTree = "<group>"; };
 		DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionPrac.swift; sourceTree = "<group>"; };
 		DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevicePrac.swift; sourceTree = "<group>"; };
 		DFBA346328194B69007CF176 /* ColorPickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerPrac.swift; sourceTree = "<group>"; };
@@ -269,12 +269,13 @@
 			path = NavigationView;
 			sourceTree = "<group>";
 		};
-		DF7CF55F2862F05A00A0178F /* Closure */ = {
+		DF8A5B9228C492ED0010E863 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				DF7CF5602862F07000A0178F /* ClosurePrac.swift */,
+				DF9DB6B42833C2D60091E538 /* DataFetch */,
+				DF8A5B9328C493130010E863 /* EscapingFromFetching.swift */,
 			);
-			path = Closure;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		DF9DB6B42833C2D60091E538 /* DataFetch */ = {
@@ -377,13 +378,12 @@
 			children = (
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
+				DF8A5B9228C492ED0010E863 /* Networking */,
 				DF3F8CC328C0E6E300D48913 /* Thread */,
 				DF3F8C6E28BD03CA00D48913 /* LocalNotification */,
 				DF3F8C4128BBA2EF00D48913 /* OverLayAndMask */,
 				DF0C68FA287310A10015023E /* Preview */,
-				DF7CF55F2862F05A00A0178F /* Closure */,
 				DF46D130283BE498008978E0 /* AppCycle */,
-				DF9DB6B42833C2D60091E538 /* DataFetch */,
 				DFEB841B282B9AAC00265F2A /* LazyGrid */,
 				DF55F9672828C4240082D982 /* Slider */,
 				DF55F962282618BB0082D982 /* Stepper */,
@@ -518,6 +518,7 @@
 				DFEE91F42809689D0030D7C5 /* ContentView.swift in Sources */,
 				DFEB84162829616E00265F2A /* EnvironmentObjectPrac.swift in Sources */,
 				DF5EF85C2815464B00CAC5E7 /* GeometryReaderPrac.swift in Sources */,
+				DF8A5B9428C493130010E863 /* EscapingFromFetching.swift in Sources */,
 				DFBA3473281BB2B4007CF176 /* PickerPrac.swift in Sources */,
 				DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */,
 				DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */,
@@ -534,7 +535,6 @@
 				DFD877722831CA7300D37BF4 /* SecuredFieldPrac.swift in Sources */,
 				DFEB841D282B9AD500265F2A /* LazyVGridPrac.swift in Sources */,
 				DF6EA49D280FB12E0013D56F /* ButtonAlertOneChoice.swift in Sources */,
-				DF7CF5612862F07000A0178F /* ClosurePrac.swift in Sources */,
 				DFEE92012809690B0030D7C5 /* TextPrac.swift in Sources */,
 				DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */,
 				DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */,
