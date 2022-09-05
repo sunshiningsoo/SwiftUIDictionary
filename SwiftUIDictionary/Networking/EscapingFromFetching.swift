@@ -28,7 +28,9 @@ class EscapingFromFetchingViewModel: ObservableObject {
                 guard let newData = try? JSONDecoder().decode([FetchModel].self, from: data) else { return }
                 
                 DispatchQueue.main.async { [weak self] in
-                    self?.models = newData
+                    guard let self = self else { return }
+                    // 위의 guard let 구문처럼 조금 이상하긴 하지만, self의 ? 를 빼주기 위해서 이렇게도 가능하다.
+                    self.models = newData
                 }
             } else {
                 print("DATA is not in here")
