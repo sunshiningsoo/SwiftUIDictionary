@@ -40,8 +40,13 @@ class EscapingFromFetchingViewModel: ObservableObject {
     
     func getJSONData(fromUrl url: URL, completionHandler: @escaping (_ data: Data?) -> ()) {
         URLSession.shared.dataTask(with: url) { data, response, error in
-            guard let data = data else { return completionHandler(nil)}
-            guard error == nil  else { return completionHandler(nil)}
+            guard let data = data else { return completionHandler(nil) }
+            guard error == nil  else { return completionHandler(nil) }
+            guard let response = response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode < 300 else { print("Response Wrong!")
+                completionHandler(nil)
+                return
+            }
+            // 위의 두 동작은 data or error를 받지 못했을때의 completionHandler에 nil값을 같이 보내게 되는 것이다.
             
             completionHandler(data)
         }.resume()
