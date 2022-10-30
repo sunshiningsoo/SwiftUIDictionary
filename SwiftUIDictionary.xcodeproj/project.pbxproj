@@ -19,6 +19,7 @@
 		DF55F964282618DC0082D982 /* StepperPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F963282618DC0082D982 /* StepperPrac.swift */; };
 		DF55F9662827EC6C0082D982 /* StateAndBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F9652827EC6C0082D982 /* StateAndBinding.swift */; };
 		DF55F9692828C4330082D982 /* SliderPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F9682828C4330082D982 /* SliderPrac.swift */; };
+		DF57121F290EA4C800614D0D /* Subscribtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57121E290EA4C800614D0D /* Subscribtion.swift */; };
 		DF5EF85C2815464B00CAC5E7 /* GeometryReaderPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF85B2815464B00CAC5E7 /* GeometryReaderPrac.swift */; };
 		DF5EF85F28154E0E00CAC5E7 /* State&BindingPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF85E28154E0E00CAC5E7 /* State&BindingPrac.swift */; };
 		DF5EF86128154E9900CAC5E7 /* BindingHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF86028154E9900CAC5E7 /* BindingHere.swift */; };
@@ -72,6 +73,7 @@
 		DF55F963282618DC0082D982 /* StepperPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperPrac.swift; sourceTree = "<group>"; };
 		DF55F9652827EC6C0082D982 /* StateAndBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndBinding.swift; sourceTree = "<group>"; };
 		DF55F9682828C4330082D982 /* SliderPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPrac.swift; sourceTree = "<group>"; };
+		DF57121E290EA4C800614D0D /* Subscribtion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscribtion.swift; sourceTree = "<group>"; };
 		DF5EF85B2815464B00CAC5E7 /* GeometryReaderPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderPrac.swift; sourceTree = "<group>"; };
 		DF5EF85E28154E0E00CAC5E7 /* State&BindingPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State&BindingPrac.swift"; sourceTree = "<group>"; };
 		DF5EF86028154E9900CAC5E7 /* BindingHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHere.swift; sourceTree = "<group>"; };
@@ -199,6 +201,14 @@
 				DF55F9682828C4330082D982 /* SliderPrac.swift */,
 			);
 			path = Slider;
+			sourceTree = "<group>";
+		};
+		DF57121D290EA4B500614D0D /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				DF57121E290EA4C800614D0D /* Subscribtion.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		DF5EF85A2815463000CAC5E7 /* GeometryReader */ = {
@@ -378,6 +388,7 @@
 			children = (
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
+				DF57121D290EA4B500614D0D /* Combine */,
 				DF8A5B9228C492ED0010E863 /* Networking */,
 				DF3F8CC328C0E6E300D48913 /* Thread */,
 				DF3F8C6E28BD03CA00D48913 /* LocalNotification */,
@@ -535,6 +546,7 @@
 				DFD877722831CA7300D37BF4 /* SecuredFieldPrac.swift in Sources */,
 				DFEB841D282B9AD500265F2A /* LazyVGridPrac.swift in Sources */,
 				DF6EA49D280FB12E0013D56F /* ButtonAlertOneChoice.swift in Sources */,
+				DF57121F290EA4C800614D0D /* Subscribtion.swift in Sources */,
 				DFEE92012809690B0030D7C5 /* TextPrac.swift in Sources */,
 				DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */,
 				DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */,
