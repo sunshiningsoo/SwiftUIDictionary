@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-class SubscribtionViewModel: ObservableObject {
+class SubscriptionViewModel: ObservableObject {
     @Published var timer: AnyCancellable? = nil
     @Published var num: Int = 0
     
@@ -39,16 +39,16 @@ class SubscribtionViewModel: ObservableObject {
     }
 }
 
-struct Subscribtion: View {
-    @StateObject var vm = SubscribtionViewModel()
+struct Subscription: View {
+    @StateObject var vm = SubscriptionViewModel()
     
     var body: some View {
         Text("\(vm.num)")
     }
 }
 
-struct Subscribtion_Previews: PreviewProvider {
+struct Subscription_Previews: PreviewProvider {
     static var previews: some View {
-        Subscribtion()
+        Subscription()
     }
 }
