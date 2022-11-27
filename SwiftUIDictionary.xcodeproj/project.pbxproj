@@ -30,6 +30,7 @@
 		DF6EA4A52810FA810013D56F /* SpacerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA4A42810FA810013D56F /* SpacerPrac.swift */; };
 		DF6EA4A8281105160013D56F /* TogglePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA4A7281105160013D56F /* TogglePrac.swift */; };
 		DF717B7D292A61A900B9A20D /* ZStackAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF717B7C292A61A900B9A20D /* ZStackAndOverlay.swift */; };
+		DF717B80293383F200B9A20D /* DoCatchTryThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */; };
 		DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A9229281270780037B390 /* NavigationViewPrac.swift */; };
 		DF7A922C281270850037B390 /* goToThisPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A922B281270850037B390 /* goToThisPage.swift */; };
 		DF7CF55E28621C6200A0178F /* InitPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF55D28621C6200A0178F /* InitPrac.swift */; };
@@ -85,6 +86,7 @@
 		DF6EA4A42810FA810013D56F /* SpacerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPrac.swift; sourceTree = "<group>"; };
 		DF6EA4A7281105160013D56F /* TogglePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePrac.swift; sourceTree = "<group>"; };
 		DF717B7C292A61A900B9A20D /* ZStackAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackAndOverlay.swift; sourceTree = "<group>"; };
+		DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrow.swift; sourceTree = "<group>"; };
 		DF7A9229281270780037B390 /* NavigationViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPrac.swift; sourceTree = "<group>"; };
 		DF7A922B281270850037B390 /* goToThisPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToThisPage.swift; sourceTree = "<group>"; };
 		DF7CF55D28621C6200A0178F /* InitPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPrac.swift; sourceTree = "<group>"; };
@@ -272,6 +274,14 @@
 			path = Toggle;
 			sourceTree = "<group>";
 		};
+		DF717B7E2933839400B9A20D /* DoTry */ = {
+			isa = PBXGroup;
+			children = (
+				DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */,
+			);
+			path = DoTry;
+			sourceTree = "<group>";
+		};
 		DF7A9228281270620037B390 /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +401,7 @@
 			children = (
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
+				DF717B7E2933839400B9A20D /* DoTry */,
 				DF57121D290EA4B500614D0D /* Combine */,
 				DF8A5B9228C492ED0010E863 /* Networking */,
 				DF3F8CC328C0E6E300D48913 /* Thread */,
@@ -552,6 +563,7 @@
 				DF57121F290EA4C800614D0D /* Subscribtion.swift in Sources */,
 				DFEE92012809690B0030D7C5 /* TextPrac.swift in Sources */,
 				DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */,
+				DF717B80293383F200B9A20D /* DoCatchTryThrow.swift in Sources */,
 				DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */,
 				DFEB8421282B9FD000265F2A /* LazyHGridPrac.swift in Sources */,
 				DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */,
