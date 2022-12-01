@@ -10,6 +10,7 @@
 		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
+		DF3B93712938B642002428B3 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93702938B642002428B3 /* AsyncAwait.swift */; };
 		DF3F8C2F28BA5CBE00D48913 /* MagnifyingPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8C2E28BA5CBE00D48913 /* MagnifyingPrac.swift */; };
 		DF3F8C4328BBA30A00D48913 /* OverlayAndMaskPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8C4228BBA30A00D48913 /* OverlayAndMaskPrac.swift */; };
 		DF3F8C7028BD03DF00D48913 /* LocalNotificationPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8C6F28BD03DF00D48913 /* LocalNotificationPrac.swift */; };
@@ -31,6 +32,7 @@
 		DF6EA4A8281105160013D56F /* TogglePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA4A7281105160013D56F /* TogglePrac.swift */; };
 		DF717B7D292A61A900B9A20D /* ZStackAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF717B7C292A61A900B9A20D /* ZStackAndOverlay.swift */; };
 		DF717B80293383F200B9A20D /* DoCatchTryThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */; };
+		DF717B872938893B00B9A20D /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF717B862938893B00B9A20D /* DownloadImageAsync.swift */; };
 		DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A9229281270780037B390 /* NavigationViewPrac.swift */; };
 		DF7A922C281270850037B390 /* goToThisPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A922B281270850037B390 /* goToThisPage.swift */; };
 		DF7CF55E28621C6200A0178F /* InitPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CF55D28621C6200A0178F /* InitPrac.swift */; };
@@ -66,6 +68,7 @@
 		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
+		DF3B93702938B642002428B3 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		DF3F8C2E28BA5CBE00D48913 /* MagnifyingPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyingPrac.swift; sourceTree = "<group>"; };
 		DF3F8C4228BBA30A00D48913 /* OverlayAndMaskPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayAndMaskPrac.swift; sourceTree = "<group>"; };
 		DF3F8C6F28BD03DF00D48913 /* LocalNotificationPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationPrac.swift; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 		DF6EA4A7281105160013D56F /* TogglePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePrac.swift; sourceTree = "<group>"; };
 		DF717B7C292A61A900B9A20D /* ZStackAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackAndOverlay.swift; sourceTree = "<group>"; };
 		DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrow.swift; sourceTree = "<group>"; };
+		DF717B862938893B00B9A20D /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		DF7A9229281270780037B390 /* NavigationViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPrac.swift; sourceTree = "<group>"; };
 		DF7A922B281270850037B390 /* goToThisPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToThisPage.swift; sourceTree = "<group>"; };
 		DF7CF55D28621C6200A0178F /* InitPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPrac.swift; sourceTree = "<group>"; };
@@ -278,6 +282,8 @@
 			isa = PBXGroup;
 			children = (
 				DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */,
+				DF717B862938893B00B9A20D /* DownloadImageAsync.swift */,
+				DF3B93702938B642002428B3 /* AsyncAwait.swift */,
 			);
 			path = DoTry;
 			sourceTree = "<group>";
@@ -572,10 +578,12 @@
 				DF3F8C4328BBA30A00D48913 /* OverlayAndMaskPrac.swift in Sources */,
 				DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */,
 				DFE79872281D27E100B4C4F5 /* ModalForFullScreen.swift in Sources */,
+				DF3B93712938B642002428B3 /* AsyncAwait.swift in Sources */,
 				DFC6448B2817E20F00188AC0 /* AboutDateType.swift in Sources */,
 				DF7CF55E28621C6200A0178F /* InitPrac.swift in Sources */,
 				DF6EA4A52810FA810013D56F /* SpacerPrac.swift in Sources */,
 				DFEE9204280A52DA0030D7C5 /* ImagePrac.swift in Sources */,
+				DF717B872938893B00B9A20D /* DownloadImageAsync.swift in Sources */,
 				DFEB841228295FD800265F2A /* ObservedObjectPrac.swift in Sources */,
 				DF55F9662827EC6C0082D982 /* StateAndBinding.swift in Sources */,
 				DF6EA4A8281105160013D56F /* TogglePrac.swift in Sources */,
