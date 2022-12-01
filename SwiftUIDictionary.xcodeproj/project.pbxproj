@@ -278,14 +278,14 @@
 			path = Toggle;
 			sourceTree = "<group>";
 		};
-		DF717B7E2933839400B9A20D /* DoTry */ = {
+		DF717B7E2933839400B9A20D /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
 				DF717B7F293383F200B9A20D /* DoCatchTryThrow.swift */,
 				DF717B862938893B00B9A20D /* DownloadImageAsync.swift */,
 				DF3B93702938B642002428B3 /* AsyncAwait.swift */,
 			);
-			path = DoTry;
+			path = Concurrency;
 			sourceTree = "<group>";
 		};
 		DF7A9228281270620037B390 /* NavigationView */ = {
@@ -407,7 +407,7 @@
 			children = (
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
-				DF717B7E2933839400B9A20D /* DoTry */,
+				DF717B7E2933839400B9A20D /* Concurrency */,
 				DF57121D290EA4B500614D0D /* Combine */,
 				DF8A5B9228C492ED0010E863 /* Networking */,
 				DF3F8CC328C0E6E300D48913 /* Thread */,
