@@ -10,6 +10,7 @@
 		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFB293B2AEC00F64477 /* AsyncLet.swift */; };
+		DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFD293B460D00F64477 /* TaskGroup.swift */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
 		DF3B93712938B642002428B3 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93702938B642002428B3 /* AsyncAwait.swift */; };
 		DF3B93732939C8E4002428B3 /* TaskPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93722939C8E4002428B3 /* TaskPractice.swift */; };
@@ -70,6 +71,7 @@
 		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF296CFB293B2AEC00F64477 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
+		DF296CFD293B460D00F64477 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
 		DF3B93702938B642002428B3 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		DF3B93722939C8E4002428B3 /* TaskPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPractice.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				DF3B93702938B642002428B3 /* AsyncAwait.swift */,
 				DF3B93722939C8E4002428B3 /* TaskPractice.swift */,
 				DF296CFB293B2AEC00F64477 /* AsyncLet.swift */,
+				DF296CFD293B460D00F64477 /* TaskGroup.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				DF5EF85F28154E0E00CAC5E7 /* State&BindingPrac.swift in Sources */,
 				DF5EF86128154E9900CAC5E7 /* BindingHere.swift in Sources */,
 				DFC644892817D23000188AC0 /* DatePickerPrac.swift in Sources */,
+				DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */,
 				DFD877722831CA7300D37BF4 /* SecuredFieldPrac.swift in Sources */,
 				DFEB841D282B9AD500265F2A /* LazyVGridPrac.swift in Sources */,
 				DF6EA49D280FB12E0013D56F /* ButtonAlertOneChoice.swift in Sources */,
