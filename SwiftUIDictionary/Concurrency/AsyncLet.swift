@@ -28,6 +28,14 @@ struct AsyncLet: View {
                 // 단순히 Task 컴포넌트의 갯수를 늘려서 여러개의 Task로 만들어 줄 수도 있지만, task를 cancel해주는 것을 생각해보면, 하나의 Task에서 동시에 처리해주는 것이 좋음
                 // 여러개의 Task를 만드는 것 보다 Single Task를 만드는 것이 더 다루기 좋음
                 Task {
+                    
+                    async let imagege1 = fetchImage()
+                    
+                    let image = try await imagege1
+                    self.images.append(image)
+                    print("Task out of the closure \(Thread.current)")
+                    
+                    
                     do {
                         // 하단과 같이 해주면 한번에 이미지를 불러와준다
                         // 하나의 타입에서만 동작하는 것이 아니라, 여러 타입에서 같이 움직임
@@ -40,6 +48,7 @@ struct AsyncLet: View {
                         // try? 로 해주는 이유는, 그냥 try만 붙어 있으면 단 하나만이라도 error가 난다면, 아무 이미지도 받지 못하기 때문임
                         let (image1, image2, image3, image4, _) = await (try fetchImage1, try fetchImage2, try fetchImage3, try fetchImage4, fetchTitle1)
                         self.images.append(contentsOf: [image1, image2, image3, image4])
+                        print("Task inside the closure \(Thread.current)")
                         
                         
                         // 하단과 같이 코딩을 한다면, serialize하게 이미지를 가져오게 됨
