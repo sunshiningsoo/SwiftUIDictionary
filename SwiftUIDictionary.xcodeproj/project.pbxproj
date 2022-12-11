@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
+		DF064D1F294614730011A557 /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF064D1E294614730011A557 /* CheckedContinuation.swift */; };
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFB293B2AEC00F64477 /* AsyncLet.swift */; };
 		DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFD293B460D00F64477 /* TaskGroup.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
+		DF064D1E294614730011A557 /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF296CFB293B2AEC00F64477 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		DF296CFD293B460D00F64477 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 				DF3B93722939C8E4002428B3 /* TaskPractice.swift */,
 				DF296CFB293B2AEC00F64477 /* AsyncLet.swift */,
 				DF296CFD293B460D00F64477 /* TaskGroup.swift */,
+				DF064D1E294614730011A557 /* CheckedContinuation.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -604,6 +607,7 @@
 				DF3F8CC528C0E6FA00D48913 /* WhichThreadNowPrac.swift in Sources */,
 				DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */,
 				DF46D132283BE4A8008978E0 /* TaskPrac.swift in Sources */,
+				DF064D1F294614730011A557 /* CheckedContinuation.swift in Sources */,
 				DF7CF5632864008E00A0178F /* URLSessionPexelPrac.swift in Sources */,
 				DFBA346728199153007CF176 /* ModalCommonPrac.swift in Sources */,
 				DF6EA49F280FBC790013D56F /* ButtonAlertManyChoice.swift in Sources */,
