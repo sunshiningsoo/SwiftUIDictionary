@@ -20,6 +20,7 @@ struct CheckedContinuationNetWorkManager {
     }
     
     func fetchImage2(url: URL) async throws -> Data {
+        // withCheckedThrowingContinuation을 활용하게 되는 경우, resume이 1번 실행됨을 보장해 주어야 한다.
         return try await withCheckedThrowingContinuation({ continuation in
             URLSession.shared.dataTask(with: url) { data, response, error in
                 if let data = data {
