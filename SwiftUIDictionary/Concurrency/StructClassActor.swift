@@ -77,8 +77,10 @@ extension StructClassActor {
     
     private func runTest() {
         print("TEST STARTED")
-//        structTest1()
-//        classTest1()
+        structTest1()
+        print("--------------")
+        classTest1()
+        print("--------------")
         actorTest1()
     }
     
@@ -93,6 +95,9 @@ extension StructClassActor {
         print("objectB: ", objectB.title)
         
         objectB.title = "Second title"
+        print("ObjectB title changed!")
+        print("objectA: ", objectA.title)
+        print("objectB: ", objectB.title)
     }
     
     private func classTest1() {
@@ -124,7 +129,9 @@ extension StructClassActor {
             let objectB = objectA
             await print("ObjectB: ", objectB.title)
             
-            objectB.title = "Second title"
+            // actor의 바깥에서 value를 직접 바꾸려고 하는 것은 못하게 되어있음
+            // objectB.title = "111"
+            await objectB.updateTitle(newTitle: "Second Title")
             print("ObjeectB title changed")
             
             await print("ObjectA: ", objectA.title)
@@ -163,7 +170,7 @@ struct MutatingStruct {
 
 extension StructClassActor {
     
-    private func strucgtTest2() {
+    private func structTest2() {
         print("structTest2")
         
         // 하단의 Struct를 갈아끼우는 것음 정확히 동일한 동작을 하게 된다.
@@ -204,7 +211,7 @@ class MyClass {
     }
 }
 
-class MyActor {
+actor MyActor {
     var title: String
     
     // class는 init을 만들어 주어야 한다.
