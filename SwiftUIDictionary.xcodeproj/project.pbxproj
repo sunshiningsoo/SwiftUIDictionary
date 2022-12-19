@@ -46,6 +46,7 @@
 		DF8A5B9428C493130010E863 /* EscapingFromFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A5B9328C493130010E863 /* EscapingFromFetching.swift */; };
 		DF9DB6B62833C2F90091E538 /* URLSessionPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */; };
 		DFA6BDC2294C5180004E0FC4 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6BDC1294C5180004E0FC4 /* StructClassActor.swift */; };
+		DFA6BDC42950124F004E0FC4 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6BDC32950124F004E0FC4 /* Actors.swift */; };
 		DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */; };
 		DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346328194B69007CF176 /* ColorPickerPrac.swift */; };
 		DFBA346728199153007CF176 /* ModalCommonPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA346628199153007CF176 /* ModalCommonPrac.swift */; };
@@ -109,6 +110,7 @@
 		DF8A5B9328C493130010E863 /* EscapingFromFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingFromFetching.swift; sourceTree = "<group>"; };
 		DF9DB6B52833C2F90091E538 /* URLSessionPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionPrac.swift; sourceTree = "<group>"; };
 		DFA6BDC1294C5180004E0FC4 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
+		DFA6BDC32950124F004E0FC4 /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevicePrac.swift; sourceTree = "<group>"; };
 		DFBA346328194B69007CF176 /* ColorPickerPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerPrac.swift; sourceTree = "<group>"; };
 		DFBA346628199153007CF176 /* ModalCommonPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalCommonPrac.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				DF296CFD293B460D00F64477 /* TaskGroup.swift */,
 				DF064D1E294614730011A557 /* CheckedContinuation.swift */,
 				DFA6BDC1294C5180004E0FC4 /* StructClassActor.swift */,
+				DFA6BDC32950124F004E0FC4 /* Actors.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */,
 				DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */,
 				DF3F8C7028BD03DF00D48913 /* LocalNotificationPrac.swift in Sources */,
+				DFA6BDC42950124F004E0FC4 /* Actors.swift in Sources */,
 				DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */,
 				DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */,
 				DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */,
