@@ -24,7 +24,7 @@ class MyDataManager {
         // actor 이전에는 lock이라는 DispatchQueue를 만들어 lock처럼 동작하게 만들어 다른 task가 끝나기를 기다려 줌
         lock.async {
             self.data.append(UUID().uuidString)
-            print(Thread.current)
+//            print(Thread.current)
             completionHandler(self.data.randomElement())
         }
         
@@ -48,7 +48,7 @@ actor MyActorManager {
     func getRandomData() -> String? {
         
         self.data.append(UUID().uuidString)
-        print(Thread.current)
+//        print(Thread.current)
         return self.data.randomElement()
         
     }
@@ -61,7 +61,8 @@ actor MyActorManager {
 }
 
 struct HomeView: View {
-    
+    var vm = Hello1()
+
     let manager = MyDataManager.instance
     let actorManager = MyActorManager.instance
     @State private var text: String = ""
@@ -70,7 +71,23 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Color.gray.opacity(0.8).ignoresSafeArea()
-            
+            Text("Hello")
+                .task {
+//                    DispatchQueue.global(qos: .background).async {
+                        print("Hello1")
+                        while true {
+                            await HelloActor.shared.printHello()
+                        }
+//                    }
+                }
+            Text("Hello2")
+                .task {
+                    print("Hello2")
+                        while true {
+//                            vm.printHello()
+                            await HelloActor.shared.printHello()
+                        }
+                }
             Text(text)
                 .font(.headline)
         }
@@ -126,6 +143,8 @@ struct BrowseView: View {
             // context를 비동기로 진입하게 함
             Task {
                 if let data = await actorManager.getRandomData() {
+                    
+                    // BrowseActor가 MainActor로 싸여 있으면, 하단의 MainActor.run은 없어도 되는 코드이다.
                     await MainActor.run(body: {
                         self.text = data
                     })
@@ -154,7 +173,7 @@ struct BrowseView: View {
 }
 
 
-struct Actors: View {
+struct ActorsPractice: View {
     var body: some View {
         TabView {
             HomeView()
@@ -169,8 +188,30 @@ struct Actors: View {
     }
 }
 
+class Hello1 {
+    var num = 1
+    
+    func printHello() {
+        print(Thread.current)
+        self.num += 1
+        print("HELLOTEST \(self.num)")
+        
+    }
+}
+
+@globalActor actor HelloActor {
+    static let shared = HelloActor()
+    var num = 1
+    
+    @Sendable func printHello() {
+        print(Thread.current)
+        self.num += 1
+        print("HELLOActorTEST \(self.num)")
+    }
+}
+
 struct Actors_Previews: PreviewProvider {
     static var previews: some View {
-        Actors()
+        ActorsPractice()
     }
 }
