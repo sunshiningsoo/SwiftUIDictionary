@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
 		DF064D1F294614730011A557 /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF064D1E294614730011A557 /* CheckedContinuation.swift */; };
+		DF0C2E0029519541004B3F09 /* SendablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C2DFF29519541004B3F09 /* SendablePractice.swift */; };
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFB293B2AEC00F64477 /* AsyncLet.swift */; };
 		DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFD293B460D00F64477 /* TaskGroup.swift */; };
@@ -74,6 +75,7 @@
 /* Begin PBXFileReference section */
 		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
 		DF064D1E294614730011A557 /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
+		DF0C2DFF29519541004B3F09 /* SendablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendablePractice.swift; sourceTree = "<group>"; };
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF296CFB293B2AEC00F64477 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		DF296CFD293B460D00F64477 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 				DFA6BDC1294C5180004E0FC4 /* StructClassActor.swift */,
 				DFA6BDC32950124F004E0FC4 /* ActorsPractice.swift */,
 				DFA6BDC52950463C004E0FC4 /* GlobalActorPractice.swift */,
+				DF0C2DFF29519541004B3F09 /* SendablePractice.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -600,6 +603,7 @@
 				DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */,
 				DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */,
 				DFEE91F22809689D0030D7C5 /* SwiftUIDictionaryApp.swift in Sources */,
+				DF0C2E0029519541004B3F09 /* SendablePractice.swift in Sources */,
 				DF3F8C4328BBA30A00D48913 /* OverlayAndMaskPrac.swift in Sources */,
 				DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */,
 				DFE79872281D27E100B4C4F5 /* ModalForFullScreen.swift in Sources */,
