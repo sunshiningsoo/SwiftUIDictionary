@@ -47,6 +47,7 @@ class GlobalActorViewModel: ObservableObject {
         // MainActor혹은 Main thread에서 해당 massive한 task를 가지게 할 수 없다.
         Task {
             let data = await globalActorManager.getDataFromDataBase()
+            print("\(Thread.current)에서 진행중")
             await MainActor.run(body: {
                 self.dataArray = data
             })
@@ -75,7 +76,11 @@ struct GlobalActorPractice: View {
         }
         .onAppear {
             Task {
-                await vm.getDataFromGlobal()
+                while true {
+                    // 해당 라인을 실행시킴으로, 같은 GlobalActor에서 실행되어도 같은 thread에서 실행되는 것을
+                    // 보장하는게 아닌 것을 알 수 있다.
+                    await vm.getDataFromGlobal()
+                }
             }
         }
         
