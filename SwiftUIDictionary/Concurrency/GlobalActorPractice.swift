@@ -24,6 +24,10 @@ import SwiftUI
 
 // MARK: - ACTOR
 actor MyNewDataManager {
+    
+    // 아래도 static하게 사용이 가능하지만, globalActor가 더 custom해서 사용하기 편리하다.
+    // static var shared = MyNewDataManager()
+    
     func getDataFromDataBase() -> [String] {
         return ["One", "Two", "Three"]
     }
