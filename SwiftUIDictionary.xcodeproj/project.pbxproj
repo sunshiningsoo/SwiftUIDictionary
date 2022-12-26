@@ -10,6 +10,7 @@
 		DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF023581286F312A009E9C76 /* AsyncImagePrac.swift */; };
 		DF064D1F294614730011A557 /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF064D1E294614730011A557 /* CheckedContinuation.swift */; };
 		DF0C2E0029519541004B3F09 /* SendablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C2DFF29519541004B3F09 /* SendablePractice.swift */; };
+		DF0C2E0629596B92004B3F09 /* AsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C2E0529596B92004B3F09 /* AsyncPublisher.swift */; };
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFB293B2AEC00F64477 /* AsyncLet.swift */; };
 		DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFD293B460D00F64477 /* TaskGroup.swift */; };
@@ -76,6 +77,7 @@
 		DF023581286F312A009E9C76 /* AsyncImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePrac.swift; sourceTree = "<group>"; };
 		DF064D1E294614730011A557 /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		DF0C2DFF29519541004B3F09 /* SendablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendablePractice.swift; sourceTree = "<group>"; };
+		DF0C2E0529596B92004B3F09 /* AsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisher.swift; sourceTree = "<group>"; };
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF296CFB293B2AEC00F64477 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		DF296CFD293B460D00F64477 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 				DFA6BDC32950124F004E0FC4 /* ActorsPractice.swift */,
 				DFA6BDC52950463C004E0FC4 /* GlobalActorPractice.swift */,
 				DF0C2DFF29519541004B3F09 /* SendablePractice.swift */,
+				DF0C2E0529596B92004B3F09 /* AsyncPublisher.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				DF8A5B9428C493130010E863 /* EscapingFromFetching.swift in Sources */,
 				DFBA3473281BB2B4007CF176 /* PickerPrac.swift in Sources */,
 				DFBA346428194B69007CF176 /* ColorPickerPrac.swift in Sources */,
+				DF0C2E0629596B92004B3F09 /* AsyncPublisher.swift in Sources */,
 				DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */,
 				DF3F8C7028BD03DF00D48913 /* LocalNotificationPrac.swift in Sources */,
 				DFA6BDC42950124F004E0FC4 /* ActorsPractice.swift in Sources */,
