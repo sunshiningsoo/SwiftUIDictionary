@@ -31,6 +31,12 @@
 		DF5EF85F28154E0E00CAC5E7 /* State&BindingPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF85E28154E0E00CAC5E7 /* State&BindingPrac.swift */; };
 		DF5EF86128154E9900CAC5E7 /* BindingHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF86028154E9900CAC5E7 /* BindingHere.swift */; };
 		DF5EF864281592CC00CAC5E7 /* Three3dPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EF863281592CC00CAC5E7 /* Three3dPrac.swift */; };
+		DF6E819729C430FC00973FC8 /* AppdelegatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E819629C430FC00973FC8 /* AppdelegatePrac.swift */; };
+		DF6E819A29C4C25900973FC8 /* StateObjectForEachViewPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E819929C4C25900973FC8 /* StateObjectForEachViewPrac.swift */; };
+		DF6E819C29C4C27600973FC8 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E819B29C4C27600973FC8 /* SearchManager.swift */; };
+		DF6E819E29C4C28000973FC8 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E819D29C4C28000973FC8 /* SettingManager.swift */; };
+		DF6E81A029C4C30500973FC8 /* SearchTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E819F29C4C30500973FC8 /* SearchTempView.swift */; };
+		DF6E81A229C4C30D00973FC8 /* SettingTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E81A129C4C30D00973FC8 /* SettingTempView.swift */; };
 		DF6EA49D280FB12E0013D56F /* ButtonAlertOneChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA49C280FB12D0013D56F /* ButtonAlertOneChoice.swift */; };
 		DF6EA49F280FBC790013D56F /* ButtonAlertManyChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA49E280FBC790013D56F /* ButtonAlertManyChoice.swift */; };
 		DF6EA4A228105A690013D56F /* StackPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA4A128105A690013D56F /* StackPrac.swift */; };
@@ -71,6 +77,8 @@
 		DFEE92012809690B0030D7C5 /* TextPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE92002809690B0030D7C5 /* TextPrac.swift */; };
 		DFEE9204280A52DA0030D7C5 /* ImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE9203280A52DA0030D7C5 /* ImagePrac.swift */; };
 		DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE9206280BEC5B0030D7C5 /* ButtonPrac.swift */; };
+		DFFBDB63296551660075A144 /* Combinejust.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFBDB62296551660075A144 /* Combinejust.swift */; };
+		DFFBDB65296556600075A144 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFBDB64296556600075A144 /* AdvancedCombine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +106,12 @@
 		DF5EF85E28154E0E00CAC5E7 /* State&BindingPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State&BindingPrac.swift"; sourceTree = "<group>"; };
 		DF5EF86028154E9900CAC5E7 /* BindingHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHere.swift; sourceTree = "<group>"; };
 		DF5EF863281592CC00CAC5E7 /* Three3dPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three3dPrac.swift; sourceTree = "<group>"; };
+		DF6E819629C430FC00973FC8 /* AppdelegatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppdelegatePrac.swift; sourceTree = "<group>"; };
+		DF6E819929C4C25900973FC8 /* StateObjectForEachViewPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectForEachViewPrac.swift; sourceTree = "<group>"; };
+		DF6E819B29C4C27600973FC8 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		DF6E819D29C4C28000973FC8 /* SettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		DF6E819F29C4C30500973FC8 /* SearchTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTempView.swift; sourceTree = "<group>"; };
+		DF6E81A129C4C30D00973FC8 /* SettingTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTempView.swift; sourceTree = "<group>"; };
 		DF6EA49C280FB12D0013D56F /* ButtonAlertOneChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAlertOneChoice.swift; sourceTree = "<group>"; };
 		DF6EA49E280FBC790013D56F /* ButtonAlertManyChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAlertManyChoice.swift; sourceTree = "<group>"; };
 		DF6EA4A128105A690013D56F /* StackPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPrac.swift; sourceTree = "<group>"; };
@@ -139,6 +153,8 @@
 		DFEE92002809690B0030D7C5 /* TextPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrac.swift; sourceTree = "<group>"; };
 		DFEE9203280A52DA0030D7C5 /* ImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrac.swift; sourceTree = "<group>"; };
 		DFEE9206280BEC5B0030D7C5 /* ButtonPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPrac.swift; sourceTree = "<group>"; };
+		DFFBDB62296551660075A144 /* Combinejust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinejust.swift; sourceTree = "<group>"; };
+		DFFBDB64296556600075A144 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +222,7 @@
 		DF55F961282508500082D982 /* PropertyWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				DF6E819829C4C23F00973FC8 /* StateObjectForEachView */,
 				DF55F9652827EC6C0082D982 /* StateAndBinding.swift */,
 				DFEB841128295FD800265F2A /* ObservedObjectPrac.swift */,
 				DFEB84152829616E00265F2A /* EnvironmentObjectPrac.swift */,
@@ -233,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				DF57121E290EA4C800614D0D /* Subscribtion.swift */,
+				DFFBDB62296551660075A144 /* Combinejust.swift */,
+				DFFBDB64296556600075A144 /* AdvancedCombine.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -260,6 +279,26 @@
 				DF5EF863281592CC00CAC5E7 /* Three3dPrac.swift */,
 			);
 			path = 3D;
+			sourceTree = "<group>";
+		};
+		DF6E819529C430E300973FC8 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF6E819629C430FC00973FC8 /* AppdelegatePrac.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		DF6E819829C4C23F00973FC8 /* StateObjectForEachView */ = {
+			isa = PBXGroup;
+			children = (
+				DF6E819929C4C25900973FC8 /* StateObjectForEachViewPrac.swift */,
+				DF6E819F29C4C30500973FC8 /* SearchTempView.swift */,
+				DF6E819B29C4C27600973FC8 /* SearchManager.swift */,
+				DF6E81A129C4C30D00973FC8 /* SettingTempView.swift */,
+				DF6E819D29C4C28000973FC8 /* SettingManager.swift */,
+			);
+			path = StateObjectForEachView;
 			sourceTree = "<group>";
 		};
 		DF6EA49B280FB11A0013D56F /* Alert */ = {
@@ -432,6 +471,7 @@
 		DFEE91F02809689D0030D7C5 /* SwiftUIDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				DF6E819529C430E300973FC8 /* Appdelegate */,
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
 				DF717B7E2933839400B9A20D /* Concurrency */,
@@ -576,6 +616,7 @@
 				DFEE91F42809689D0030D7C5 /* ContentView.swift in Sources */,
 				DF3B93732939C8E4002428B3 /* TaskPractice.swift in Sources */,
 				DFEB84162829616E00265F2A /* EnvironmentObjectPrac.swift in Sources */,
+				DFFBDB65296556600075A144 /* AdvancedCombine.swift in Sources */,
 				DF5EF85C2815464B00CAC5E7 /* GeometryReaderPrac.swift in Sources */,
 				DF8A5B9428C493130010E863 /* EscapingFromFetching.swift in Sources */,
 				DFBA3473281BB2B4007CF176 /* PickerPrac.swift in Sources */,
@@ -584,6 +625,7 @@
 				DFEE9207280BEC5B0030D7C5 /* ButtonPrac.swift in Sources */,
 				DF3F8C7028BD03DF00D48913 /* LocalNotificationPrac.swift in Sources */,
 				DFA6BDC42950124F004E0FC4 /* ActorsPractice.swift in Sources */,
+				DF6E819A29C4C25900973FC8 /* StateObjectForEachViewPrac.swift in Sources */,
 				DF023582286F312A009E9C76 /* AsyncImagePrac.swift in Sources */,
 				DF7A922A281270780037B390 /* NavigationViewPrac.swift in Sources */,
 				DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */,
@@ -593,6 +635,7 @@
 				DF5EF85F28154E0E00CAC5E7 /* State&BindingPrac.swift in Sources */,
 				DF5EF86128154E9900CAC5E7 /* BindingHere.swift in Sources */,
 				DFC644892817D23000188AC0 /* DatePickerPrac.swift in Sources */,
+				DFFBDB63296551660075A144 /* Combinejust.swift in Sources */,
 				DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */,
 				DFD877722831CA7300D37BF4 /* SecuredFieldPrac.swift in Sources */,
 				DFEB841D282B9AD500265F2A /* LazyVGridPrac.swift in Sources */,
@@ -605,10 +648,12 @@
 				DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */,
 				DFEB8421282B9FD000265F2A /* LazyHGridPrac.swift in Sources */,
 				DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */,
+				DF6E819C29C4C27600973FC8 /* SearchManager.swift in Sources */,
 				DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */,
 				DFEE91F22809689D0030D7C5 /* SwiftUIDictionaryApp.swift in Sources */,
 				DF0C2E0029519541004B3F09 /* SendablePractice.swift in Sources */,
 				DF3F8C4328BBA30A00D48913 /* OverlayAndMaskPrac.swift in Sources */,
+				DF6E819E29C4C28000973FC8 /* SettingManager.swift in Sources */,
 				DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */,
 				DFE79872281D27E100B4C4F5 /* ModalForFullScreen.swift in Sources */,
 				DF3B93712938B642002428B3 /* AsyncAwait.swift in Sources */,
@@ -623,7 +668,9 @@
 				DF6EA4A8281105160013D56F /* TogglePrac.swift in Sources */,
 				DF55F9602823C04A0082D982 /* PopToRootPrac.swift in Sources */,
 				DF6EA4A228105A690013D56F /* StackPrac.swift in Sources */,
+				DF6E819729C430FC00973FC8 /* AppdelegatePrac.swift in Sources */,
 				DFE79870281D197900B4C4F5 /* ScrollViewReaderPrac.swift in Sources */,
+				DF6E81A229C4C30D00973FC8 /* SettingTempView.swift in Sources */,
 				DF3F8CC528C0E6FA00D48913 /* WhichThreadNowPrac.swift in Sources */,
 				DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */,
 				DF46D132283BE4A8008978E0 /* TaskPrac.swift in Sources */,
@@ -635,6 +682,7 @@
 				DF55F964282618DC0082D982 /* StepperPrac.swift in Sources */,
 				DF717B7D292A61A900B9A20D /* ZStackAndOverlay.swift in Sources */,
 				DF7A922C281270850037B390 /* goToThisPage.swift in Sources */,
+				DF6E81A029C4C30500973FC8 /* SearchTempView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,6 +813,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDictionary/Preview Content\"";
+				DEVELOPMENT_TEAM = DF85MB57QP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -793,6 +842,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDictionary/Preview Content\"";
+				DEVELOPMENT_TEAM = DF85MB57QP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
