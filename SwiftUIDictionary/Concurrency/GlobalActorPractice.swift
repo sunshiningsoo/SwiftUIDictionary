@@ -49,10 +49,12 @@ class GlobalActorViewModel: ObservableObject {
     @MyFirstGlobalActor func getDataFromGlobal() {
         // 여기 안이 만약 HEAVY COMPLEX task 라면..
         // MainActor혹은 Main thread에서 해당 massive한 task를 가지게 할 수 없다.
+        print("@MyFirstGlobalActor 안임: \(Thread.current)")
         Task {
             let data = await globalActorManager.getDataFromDataBase()
-            print("\(Thread.current)에서 진행중")
+            print("Task 안임: \(Thread.current)에서 진행중")
             await MainActor.run(body: {
+                print("MainActor 안임: \(Thread.current)에서 진행중")
                 self.dataArray = data
             })
         }
