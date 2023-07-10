@@ -16,6 +16,7 @@
 		DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFD293B460D00F64477 /* TaskGroup.swift */; };
 		DF2974172A5C4A1400D1E213 /* KFImageCachePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2974162A5C4A1400D1E213 /* KFImageCachePrac.swift */; };
 		DF29741A2A5C4AA900D1E213 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DF2974192A5C4AA900D1E213 /* Kingfisher */; };
+		DF29741C2A5C4CAF00D1E213 /* ImageCachePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29741B2A5C4CAF00D1E213 /* ImageCachePrac.swift */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
 		DF3B93712938B642002428B3 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93702938B642002428B3 /* AsyncAwait.swift */; };
 		DF3B93732939C8E4002428B3 /* TaskPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93722939C8E4002428B3 /* TaskPractice.swift */; };
@@ -92,6 +93,7 @@
 		DF296CFB293B2AEC00F64477 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		DF296CFD293B460D00F64477 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
 		DF2974162A5C4A1400D1E213 /* KFImageCachePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFImageCachePrac.swift; sourceTree = "<group>"; };
+		DF29741B2A5C4CAF00D1E213 /* ImageCachePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCachePrac.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
 		DF3B93702938B642002428B3 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		DF3B93722939C8E4002428B3 /* TaskPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPractice.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				DF2974162A5C4A1400D1E213 /* KFImageCachePrac.swift */,
+				DF29741B2A5C4CAF00D1E213 /* ImageCachePrac.swift */,
 			);
 			path = ImageCache;
 			sourceTree = "<group>";
@@ -684,6 +687,7 @@
 				DF717B872938893B00B9A20D /* DownloadImageAsync.swift in Sources */,
 				DFEB841228295FD800265F2A /* ObservedObjectPrac.swift in Sources */,
 				DFA6BDC2294C5180004E0FC4 /* StructClassActor.swift in Sources */,
+				DF29741C2A5C4CAF00D1E213 /* ImageCachePrac.swift in Sources */,
 				DF55F9662827EC6C0082D982 /* StateAndBinding.swift in Sources */,
 				DF6EA4A8281105160013D56F /* TogglePrac.swift in Sources */,
 				DF55F9602823C04A0082D982 /* PopToRootPrac.swift in Sources */,
