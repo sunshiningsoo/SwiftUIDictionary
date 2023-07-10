@@ -14,6 +14,8 @@
 		DF0C68FC287310B20015023E /* PreviewLayoutPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */; };
 		DF296CFC293B2AEC00F64477 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFB293B2AEC00F64477 /* AsyncLet.swift */; };
 		DF296CFE293B460D00F64477 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296CFD293B460D00F64477 /* TaskGroup.swift */; };
+		DF2974172A5C4A1400D1E213 /* KFImageCachePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2974162A5C4A1400D1E213 /* KFImageCachePrac.swift */; };
+		DF29741A2A5C4AA900D1E213 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DF2974192A5C4AA900D1E213 /* Kingfisher */; };
 		DF33EF26285612F400370265 /* GestureStatePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33EF25285612F400370265 /* GestureStatePrac.swift */; };
 		DF3B93712938B642002428B3 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93702938B642002428B3 /* AsyncAwait.swift */; };
 		DF3B93732939C8E4002428B3 /* TaskPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B93722939C8E4002428B3 /* TaskPractice.swift */; };
@@ -89,6 +91,7 @@
 		DF0C68FB287310B20015023E /* PreviewLayoutPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutPrac.swift; sourceTree = "<group>"; };
 		DF296CFB293B2AEC00F64477 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		DF296CFD293B460D00F64477 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		DF2974162A5C4A1400D1E213 /* KFImageCachePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFImageCachePrac.swift; sourceTree = "<group>"; };
 		DF33EF25285612F400370265 /* GestureStatePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStatePrac.swift; sourceTree = "<group>"; };
 		DF3B93702938B642002428B3 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		DF3B93722939C8E4002428B3 /* TaskPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPractice.swift; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF29741A2A5C4AA900D1E213 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +179,14 @@
 				DFB8BB7828771AC3001F9068 /* PreviewDevicePrac.swift */,
 			);
 			path = Preview;
+			sourceTree = "<group>";
+		};
+		DF2974152A5C4A0400D1E213 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				DF2974162A5C4A1400D1E213 /* KFImageCachePrac.swift */,
+			);
+			path = ImageCache;
 			sourceTree = "<group>";
 		};
 		DF3F8C4128BBA2EF00D48913 /* OverLayAndMask */ = {
@@ -471,6 +483,7 @@
 		DFEE91F02809689D0030D7C5 /* SwiftUIDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				DF2974152A5C4A0400D1E213 /* ImageCache */,
 				DF6E819529C430E300973FC8 /* Appdelegate */,
 				DFEE91F12809689D0030D7C5 /* SwiftUIDictionaryApp.swift */,
 				DFEE91F32809689D0030D7C5 /* ContentView.swift */,
@@ -559,6 +572,9 @@
 			dependencies = (
 			);
 			name = SwiftUIDictionary;
+			packageProductDependencies = (
+				DF2974192A5C4AA900D1E213 /* Kingfisher */,
+			);
 			productName = SwiftUIDictionary;
 			productReference = DFEE91EE2809689D0030D7C5 /* SwiftUIDictionary.app */;
 			productType = "com.apple.product-type.application";
@@ -587,6 +603,9 @@
 				Base,
 			);
 			mainGroup = DFEE91E52809689D0030D7C5;
+			packageReferences = (
+				DF2974182A5C4AA900D1E213 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DFEE91EF2809689D0030D7C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -648,6 +667,7 @@
 				DF7CF5672864A52600A0178F /* AppCyclePrac.swift in Sources */,
 				DFEB8421282B9FD000265F2A /* LazyHGridPrac.swift in Sources */,
 				DFB8BB7928771AC3001F9068 /* PreviewDevicePrac.swift in Sources */,
+				DF2974172A5C4A1400D1E213 /* KFImageCachePrac.swift in Sources */,
 				DF6E819C29C4C27600973FC8 /* SearchManager.swift in Sources */,
 				DF7CF5652864A31600A0178F /* AUTHKEY.swift in Sources */,
 				DFEE91F22809689D0030D7C5 /* SwiftUIDictionaryApp.swift in Sources */,
@@ -885,6 +905,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF2974182A5C4AA900D1E213 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF2974192A5C4AA900D1E213 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF2974182A5C4AA900D1E213 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DFEE91E62809689D0030D7C5 /* Project object */;
 }
