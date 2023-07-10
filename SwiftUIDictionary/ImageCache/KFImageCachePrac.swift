@@ -1,5 +1,5 @@
 //
-//  ImageCachePrac.swift
+//  KFImageCachePrac.swift
 //  SwiftUIDictionary
 //
 //  Created by 박성수 on 2023/07/10.
@@ -21,7 +21,7 @@ struct KFImageCachePrac: View {
     }
 }
 
-struct ImageCachePrac_Previews: PreviewProvider {
+struct KFImageCachePrac_Previews: PreviewProvider {
     static var previews: some View {
         KFImageCachePrac()
     }
